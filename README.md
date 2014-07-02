@@ -50,4 +50,6 @@ Goals:
   * Manipulate, Aggregate the data
   * Push data into Graphite
 
-Data: SLS/CID delivery by IP, campaign, domain
+Data:
+  From- Subject Line Stream
+  Determine- delivery by IP, campaign, domain
