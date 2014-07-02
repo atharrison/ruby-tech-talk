@@ -18,7 +18,7 @@ AWS.config(
 module Techtalk
   # Project-level globals and resources go here
 
-  GRAPHITE_SERVER = "metrics-input.lan.returnpath.net"
+  GRAPHITE_SERVER = "metrics-input.returnpath.net"
   GRAPHITE_PORT = "2003"
   GRAPHITE_PREFIX = "sandbox.rp-tech-talk"
   TECHTALK_S3_BUCKET = 'rp-tech-talk'
