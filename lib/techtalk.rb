@@ -7,9 +7,9 @@ require 'require_all'
 require 'pry'
 require 'pry-nav'
 
-# Configure AWS
-AWS_ACCESS_ID = ''
-AWS_SECRET_KEY = ''
+# Configure AWS      ,
+AWS_ACCESS_ID = 'AKIAID76JMMWL6Z2LL6A'
+AWS_SECRET_KEY = '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'
 AWS.config(
     :access_key_id => AWS_ACCESS_ID,
     :secret_access_key => AWS_SECRET_KEY)

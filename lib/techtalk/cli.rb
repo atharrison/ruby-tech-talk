@@ -12,7 +12,8 @@ module Techtalk
 
     desc "solve", "Solve a problem"
     def solve
-      #Your code goes here
+      prefix = 'feeds/subject_line_stream/2014/24/2014-06-18/'
+      Processor.new(s3_prefix: prefix).process
     end
 
     desc "pry", "Start a pry session"
