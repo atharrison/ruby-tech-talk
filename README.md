@@ -46,10 +46,12 @@ Confirm that you can run the test task:
 Problem: Aggregating deliverability metrics
 
 Goals:
+
   * Read data from S3
   * Manipulate, Aggregate the data
   * Push data into Graphite
 
 Data:
-  From- Subject Line Stream
-  Determine- delivery by IP, campaign, domain
+
+  * From- Subject Line Stream
+  * Determine- delivery by IP, campaign, domain
