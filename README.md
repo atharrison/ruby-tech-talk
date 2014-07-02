@@ -31,6 +31,10 @@ Clone (or fork) this repo:
     git clone git@github.com:atharrison/ruby-tech-talk.git
     cd ruby-tech-talk
 
+Run Bundle to pull down the needed external dependencies
+
+    bundle update
+
 Confirm that you can run the test task:
 
     ./bin/techtalk-cli test
