@@ -55,3 +55,15 @@ Data:
 
   * From- Subject Line Stream
   * Determine- delivery by IP, campaign, domain
+
+S3 Bucket information:
+
+  * Bucket Name: `rp-tech-talk`
+
+Data in folders:
+
+```
+feeds/subject_line_stream/2014/24/2014-06-18/ # Small dataset
+feeds/subject_line_stream/2014/25/2014-06-29/ # Full day of data
+ips/ # A handful of domain-to-ip mappings
+```
