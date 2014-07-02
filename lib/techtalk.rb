@@ -20,7 +20,7 @@ module Techtalk
   GRAPHITE_SERVER = "metrics-input.lan.returnpath.net"
   GRAPHITE_PORT = "2003"
   GRAPHITE_PREFIX = "sandbox.rp-tech-talk"
-  TECHTALK_S3_BUCKET = 'rp-tech-talk-testing123'
+  TECHTALK_S3_BUCKET = 'rp-tech-talk'
 
   # https://github.com/kontera-technologies/graphite-api/blob/master/README.md
   # https://wiki.corp.returnpath.net/display/rpoperations/Graphite+FAQ
